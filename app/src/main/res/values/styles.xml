@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Base.App.DayNight" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:colorBackground">@android:color/background_light</item>
@@ -80,11 +80,11 @@
 
 
     <style name="Theme.Title.Toolbar" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <!--<item name="android:textSize">20dp</item>-->
+        <item name="android:textSize">20dp</item>
     </style>
 
     <style name="Theme.Subtitle.Toolbar" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
-        <!--<item name="android:textSize">12dp</item>-->
+        <item name="android:textSize">12dp</item>
     </style>
 
     <style name="Toolbar.White" parent="ThemeOverlay.AppCompat.ActionBar">
@@ -113,7 +113,7 @@
     </style>
     <!-- Custom Style for PreferenceFragmentCompat -->
     <style name="AppPreferenceFragmentCompatStyle" parent="@style/PreferenceFragment.Material">
-        <item name="android:layout">@layout/preference_list_fragment</item>
+        <item name="android:layout" tools:ignore="PrivateResource">@layout/preference_list_fragment</item>
     </style>
 
 </resources>
