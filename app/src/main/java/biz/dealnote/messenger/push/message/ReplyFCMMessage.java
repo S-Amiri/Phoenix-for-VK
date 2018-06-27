@@ -46,7 +46,7 @@ public class ReplyFCMMessage {
     // context={"feedback":true,"reply_id":60,"user_id":280186075,"item_id":56,"owner_id":"280186075","type":"comment"}}
 
 
-        private int from_id;
+    private int from_id;
     private int reply_id;
     //public String firstName;
     //private int sex;

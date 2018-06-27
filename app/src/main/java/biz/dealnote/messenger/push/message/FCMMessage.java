@@ -6,6 +6,7 @@ import com.google.firebase.messaging.RemoteMessage;
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
 import java.util.Map;
 
 import biz.dealnote.messenger.api.util.VKStringUtils;
@@ -47,6 +48,7 @@ public class FCMMessage {
     public int message_id;
     public int sender_id;
     public long google_sent_time;
+    public String photo_200_url;
 
     class MessageContext {
         @SerializedName("msg_id")
@@ -78,6 +80,9 @@ public class FCMMessage {
         message.message_id = context.msg_id;
         message.sender_id = context.sender_id;
 
+        FCMPhotoDto[] photo_array = new Gson().fromJson(data.get("image"), FCMPhotoDto[].class);
+        message.photo_200_url = photo_array[0].url;
+
         Logger.d("PUSH", "id:" + message.message_id + " " + "sender:" + message.sender_id);
 
         message.google_sent_time = remote.getSentTime();
@@ -95,8 +100,8 @@ public class FCMMessage {
             return;
         }
 
-        NotificationHelper.showNotification(context, accountId, null, title, body, message_id,
-                sender_id, vk_time, null);
+        NotificationHelper.showNotification(context, accountId, title, body, message_id,
+                sender_id, vk_time, photo_200_url);
 
     }
 }
