@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="array_chat_background_items"><item>0</item><item>1</item><item>2</item></string-array>
+<string-array name="array_chat_background_names"><item>Udmis</item><item>Inagan n tuqna</item><item>Izirigen</item></string-array>
+<string-array name="array_image_sizes_names"><item>Meẓẓi 800px</item><item>Alemmas 1200px</item><item>Udmis</item></string-array>
+<string-array name="array_image_sizes_settings_names"><item>Meẓẓi 800px</item><item>Alemmas 1200px</item><item>Udmis</item><item>Fren yal tikkelt</item></string-array>
+<string-array name="array_image_sizes_settings_values"><item>1</item><item>2</item><item>3</item><item>0</item></string-array>
+<string-array name="array_theme_names"><item>Anili</item><item>Anili aceεlal</item><item>Anili n irig</item><item>Teal</item><item>Azgaɣ</item><item>Indigo</item><item>Pink</item><item>Deep Orange</item><item>Purple</item><item>Monochrome</item><item>Azegzaw</item><item>Pixel-Styled</item></string-array>
+<string-array name="array_theme_values"><item>asentel1</item><item>asentel2</item><item>asentel3</item><item>asentel4</item><item>asentel5</item><item>asentel6</item><item>asentel7</item><item>asentel8</item><item>asentel9</item><item>asentel10</item><item>asentel11</item><item>asentel12</item></string-array>
+<string-array name="array_vibration_length_names"><item>Wezzil</item><item>Amagnu</item><item>Ɣezzif</item><item>Wezzil(Sin)</item><item>Amagnu(Kraḍ)</item><item>Ɣezzif(Sin)</item></string-array>
+<string-array name="array_vibration_length_value"><item>0</item><item>1</item><item>2</item><item>3</item><item>4</item><item>5</item></string-array>
+<string-array name="night_mode_names"><item>Sens</item><item>Rmed</item><item>Awurman</item></string-array>
+<string-array name="night_mode_values"><item>1</item><item>2</item><item>0</item></string-array>
+<string-array name="player_progress_state"><item>••••••</item><item>• •••••</item><item>•• ••••</item><item>••• •••</item><item>•••• ••</item><item>••••• •</item><item>••••••</item></string-array>
+<string-array name="preview_preview_size"><item>S: 75px</item><item>M: 130px</item><item>X: 604px</item><item>Y: 807px</item></string-array>
+<string-array name="preview_preview_size_values"><item>1</item><item>2</item><item>3</item><item>4</item></string-array>
+</resources>
